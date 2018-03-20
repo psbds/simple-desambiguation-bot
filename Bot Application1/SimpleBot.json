@@ -1,0 +1,112 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "SimpleBot",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "ask_card"
+    },
+    {
+      "name": "create_account"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "account_type",
+      "subLists": [
+        {
+          "canonicalForm": "joint",
+          "list": []
+        },
+        {
+          "canonicalForm": "single",
+          "list": []
+        }
+      ]
+    },
+    {
+      "name": "card_type",
+      "subLists": [
+        {
+          "canonicalForm": "debit",
+          "list": [
+            "dbt"
+          ]
+        },
+        {
+          "canonicalForm": "credit",
+          "list": [
+            "crd"
+          ]
+        }
+      ]
+    }
+  ],
+  "bing_entities": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "create a personal account",
+      "intent": "create_account",
+      "entities": []
+    },
+    {
+      "text": "create account",
+      "intent": "create_account",
+      "entities": []
+    },
+    {
+      "text": "give me a debit card",
+      "intent": "ask_card",
+      "entities": []
+    },
+    {
+      "text": "how do i create a joint account",
+      "intent": "create_account",
+      "entities": []
+    },
+    {
+      "text": "how do i create a personal account",
+      "intent": "create_account",
+      "entities": []
+    },
+    {
+      "text": "how do i get a card",
+      "intent": "ask_card",
+      "entities": []
+    },
+    {
+      "text": "i need a credit card",
+      "intent": "ask_card",
+      "entities": []
+    },
+    {
+      "text": "i want a card",
+      "intent": "ask_card",
+      "entities": []
+    },
+    {
+      "text": "i want a credit card",
+      "intent": "ask_card",
+      "entities": []
+    },
+    {
+      "text": "i want to register a joint account",
+      "intent": "create_account",
+      "entities": []
+    },
+    {
+      "text": "register account",
+      "intent": "create_account",
+      "entities": []
+    }
+  ]
+}
